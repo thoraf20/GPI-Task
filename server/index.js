@@ -4,7 +4,7 @@ const Controller = require('./controller');
 require('dotenv').config()
 
 const hostname =process.env.HOST;
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3002;
 
 const server = http.createServer(async(req, res) => {
     var url = req.url;
